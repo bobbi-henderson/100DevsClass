@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <h1>Come do some math fo free!!</h1>
+
+    <input type="number" id="num1">
+
+    <select name="operation" id="operation">
+        <option value="plus">+</option>
+        <option value="minus">-</option>
+        <option value="multipy">*</option>
+        <option value="divide">/</option>
+    </select>
+
+    <input type="number" id="num2">
+
+    <input type="submit" id="calculate" value="=">
+
+    <p id="answer"></p>
+    
+    <script src="js/index.js"></script>
+</body>
+</html>

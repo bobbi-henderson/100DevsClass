@@ -1,0 +1,51 @@
+body {
+    background-color: #97CCE8;
+    color: white;
+    border-style: solid;
+    border-color: #70CB4D;
+    border-width: 5px;
+    text-align: center;
+    font-family: 'Fraunces', serif;
+}
+
+a:active{
+    color: white;
+}
+
+.about {
+    text-align: left;
+}
+
+.dividers {
+    font-weight: bold;
+    color: gray;
+}
+
+.green {
+    color: #70CB4D;
+}
+
+.left {
+    text-align: start;
+}
+
+.bold {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+#body {
+    padding: 5%;
+}
+
+#header {
+    font-style: italic;
+    font-weight: 400;
+}
+
+#logo {
+    width: 35%;
+    float: right; 
+    padding-left: 2%;
+    padding-bottom: 2%;
+}
